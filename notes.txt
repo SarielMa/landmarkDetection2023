@@ -1,0 +1,5 @@
+1. Landmark in utils/tranforms.py is not normalized from original size to 512 x 512
+TODO: Normalized landmarks in utils/transforms to make it fit for detection
+TODO: In infer/predict phase, recover the normalzied coords into original size
+
+2. package our code to docker

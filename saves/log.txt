@@ -1,0 +1,1 @@
+[2023-07-25 23:58:11:916] - DEBUG - {'patch_size': [4, 4], 'n_layers': 2, 'n_heads': 16, 'embed_dim': 512, 'alpha': 100, 'attn_drop': 0, 'C_in': 128, 'H_in': 128, 'W_in': 128, 'beta': 1}
