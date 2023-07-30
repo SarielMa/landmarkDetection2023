@@ -62,7 +62,8 @@ def main(config):
     # torch.backends.cudnn.benchmark = True
     gpu_id = config.cuda_id
     os.environ["CUDA_VISIBLE_DEVICES"] = "{}".format(gpu_id)
-    device = torch.device('cuda:{}'.format(gpu_id) if torch.cuda.is_available() else 'cpu')
+    #os.environ["CUDA_VISIBLE_DEVICES"] = str(gpu_id)
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         
     # train and valid dataset
     train_transform = transforms.Compose([Rescale(output_size=(config.image_height, config.image_width)),

@@ -1,1 +1,5 @@
-[2023-07-25 23:58:11:916] - DEBUG - {'patch_size': [4, 4], 'n_layers': 2, 'n_heads': 16, 'embed_dim': 512, 'alpha': 100, 'attn_drop': 0, 'C_in': 128, 'H_in': 128, 'W_in': 128, 'beta': 1}
+[2023-07-26 01:24:57:952] - DEBUG - {'patch_size': [4, 4], 'n_layers': 2, 'n_heads': 16, 'embed_dim': 512, 'alpha': 100, 'attn_drop': 0, 'C_in': 128, 'H_in': 128, 'W_in': 128, 'beta': 1}
+[2023-07-26 01:26:13:574] - INFO - Train epoch [1   /5   ], Loss: 706563.610947
+[2023-07-26 01:26:13:736] - INFO - Validating....
+[2023-07-26 01:26:46:266] - INFO - Validation loss: 942.695122
+[2023-07-26 01:26:46:267] - INFO - Validation loss decreases from 10000000000.000000 to 942.695122
